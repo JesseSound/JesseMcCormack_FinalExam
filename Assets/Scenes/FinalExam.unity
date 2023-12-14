@@ -487,7 +487,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45dcad306184c924ea019def5bdb5c31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 3583793264581238488, guid: aeb41e14b9866384baddc68f2e20768b, type: 3}
+  bullet: {fileID: 3583793264581238488, guid: aeb41e14b9866384baddc68f2e20768b, type: 3}
+  playerSpeed: 5
+  gunSelect: 0
+  gunSpeed: 0
+  grenadeBoom: {fileID: 7634964902856241481, guid: cb8d6c7c1bfa20245a7126612054bb04, type: 3}
 --- !u!212 &1585595416
 SpriteRenderer:
   m_ObjectHideFlags: 0
